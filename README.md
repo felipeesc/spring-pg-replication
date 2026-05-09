@@ -123,7 +123,7 @@ docker exec postgres-source psql -U replication_user -d source_db \
   -c "SELECT * FROM pg_replication_slots;"
 
 # roda a aplicacao
-./mvnw spring-boot:run
+./mvn spring-boot:run
 ```
 
 ### Simulando mudancas
